@@ -27,7 +27,7 @@ const Main = () => {
         />
         <div className=" absolute w-full h-full flex justify-center items-center flex-col">
           <div className=" w-full flex justify-center items-end gap-2">
-            <h1 className="text-gray-800 text-2xl font-poppins lg:text-6xl font-bold">Hello, I'm </h1>
+            <h1 className="text-Secondary text-2xl font-poppins lg:text-6xl font-bold">Hello, I'm </h1>
             <h1 className="font-poppins font-bold text-2xl lg:text-7xl text-transparent bg-clip-text bg-gradient-to-tl from-Secondary to-Primary"> Fardin Ahmed</h1>
 
           </div>
