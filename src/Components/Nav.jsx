@@ -5,14 +5,14 @@ const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className='fixed z-[100] w-screen h-14 bg-purple-300/20 backdrop-blur-sm flex justify-between xl:justify-around lg:justify-around items-center px-4 md:px-8 lg:px-16'>
+    <div className='fixed z-[100] w-screen h-14 bg-white/20 backdrop-blur-sm flex justify-between xl:justify-around lg:justify-around items-center px-4 md:px-8 lg:px-16'>
       {/* Brand/Logo */}
       <h1 className='text-xl md:text-2xl h-10 text-transparent bg-clip-text bg-gradient-to-tr from-Primary to-80% to-Secondary font-pacifico'>
         Portfolio
       </h1>
 
       {/* Desktop Navigation Links */}
-      <ul className='hidden md:flex flex-row font-roboto gap-4 md:gap-6 lg:gap-8 text-sm md:text-base text-text'>
+      <ul className='hidden md:flex flex-row font-roboto gap-4 md:gap-6 lg:gap-8 text-sm md:text-base text-Secondary'>
         <li className='cursor-pointer'>
           <ScrollLink to="home-section" smooth={true} duration={500}>
             Home
